@@ -1,5 +1,20 @@
 package algorithms.sorting;
 
+/**
+ * CLRS Chapter 2
+ * Merge Sort
+ *
+ * Time Complexity:
+ * Best: O(n log n)
+ * Average: O(n log n)
+ * Worst: O(n log n)
+ *
+ * Space Complexity: O(n)
+ *
+ * Stable: Yes
+ * In-place: No
+ */
+
 public class MergeSort implements Sorter {
 
     @Override

@@ -1,5 +1,20 @@
 package algorithms.sorting;
 
+/**
+ * CLRS Chapter 2
+ * Insertion Sort
+ *
+ * Time Complexity:
+ * Best: O(n)
+ * Average: O(n^2)
+ * Worst: O(n^2)
+ *
+ * Space Complexity: O(1)
+ *
+ * Stable: Yes
+ * In-place: Yes
+ */
+
 public class InsertionSort implements Sorter {
 
     @Override
